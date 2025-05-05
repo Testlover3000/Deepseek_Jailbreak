@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Effects of Excessive Sugar Consumption on Human Health</title>
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        font-family: "Arial", sans-serif;
+        scroll-behavior: smooth;
+        background-color: #f5f5f5;
+      }
+
+      .presentation-container {
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+        background: white;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .slide {
+        min-height: 100vh;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        border-bottom: 1px solid #eaeaea;
+      }
+
+      .title-slide {
+        background: linear-gradient(135deg, #ff6b6b, #556270);
+        color: white;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+
+      h2 {
+        font-size: 2rem;
+        color: #333;
+        border-bottom: 2px solid #ff6b6b;
+        padding-bottom: 0.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .title-slide h1 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+      }
+
+      .title-slide p {
+        font-size: 1.2rem;
+        opacity: 0.9;
+      }
+
+      ul {
+        padding-left: 1.5rem;
+      }
+
+      li {
+        margin-bottom: 1rem;
+        line-height: 1.6;
+      }
+
+      .content-box {
+        display: flex;
+        margin: 1.5rem 0;
+        gap: 2rem;
+        align-items: center;
+      }
+
+      .text-content {
+        flex: 1;
+      }
+
+      .image-container {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .image-container img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .references {
+        margin-top: 2rem;
+        font-size: 0.9rem;
+      }
+
+      .references h3 {
+        color: #555;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 0.5rem;
+      }
+
+      .references ol {
+        padding-left: 1.5rem;
+      }
+
+      .references li {
+        margin-bottom: 0.5rem;
+      }
+
+      .navigation {
+        position: fixed;
+        bottom: 2rem;
+        right: 2rem;
+        display: flex;
+        gap: 0.5rem;
+        z-index: 100;
+      }
+
+      .nav-btn {
+        background: #333;
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        cursor: pointer;
+        opacity: 0.7;
+        transition: opacity 0.3s;
+      }
+
+      .nav-btn:hover {
+        opacity: 1;
+      }
+
+      .slide-indicator {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        background: rgba(0, 0, 0, 0.1);
+        padding: 0.25rem 0.5rem;
+        border-radius: 4px;
+        font-size: 0.8rem;
+      }
+
+      .conclusion-slide {
+        background: linear-gradient(135deg, #556270, #4ecdc4);
+        color: white;
+      }
+
+      .conclusion-slide h2 {
+        color: white;
+        border-bottom-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="presentation-container">
+      <!-- Title Slide -->
+      <div id="slide1" class="slide title-slide">
+        <div class="slide-indicator">1/7</div>
+        <h1>The Effects of Excessive Sugar Consumption on Human Health</h1>
+        <p>A comprehensive overview of how sugar impacts the human body</p>
+        <div class="image-container">
+          
+        </div>
+        <p style="margin-top: 2rem">Presented by: Mahmoud.s, Mohammed.a, saif.a, jassem, khalifa.r and omar.ab.</p>
+      </div>
+
+      <!-- Introduction Slide -->
+      <div id="slide2" class="slide">
+        <div class="slide-indicator">2/7</div>
+        <h2>Introduction</h2>
+        <div class="content-box">
+          <div class="text-content">
+            <p>
+              Sugar has become a prevalent ingredient in modern diets, often
+              hidden in processed foods and beverages. The average American
+              consumes approximately 77 grams of sugar daily—more than three
+              times the recommended amount.
+            </p>
+            <p>
+              While our bodies need some sugar for energy, excessive consumption
+              has been linked to numerous health problems that affect nearly
+              every system in the human body.
+            </p>
+            <p>
+              This presentation explores the scientific evidence behind how
+              sugar overconsumption impacts human health.
+            </p>
+          </div>
+          <div class="image-container">
+            <img
+              src="sugar.png"
+              alt="Hidden sugars in food"
+              style="max-height: 300px; object-fit: contain"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Idea 1: Metabolic Effects -->
+      <div id="slide3" class="slide">
+        <div class="slide-indicator">3/7</div>
+        <h2>Metabolic Effects</h2>
+        <div class="content-box">
+          <div class="text-content">
+            <h3>Weight Gain and Obesity</h3>
+            <ul>
+              <li>
+                High sugar intake promotes fat storage and insulin resistance
+              </li>
+              <li>
+                Sugar-sweetened beverages are linked to a 60% increased risk of
+                obesity in children
+              </li>
+              <li>
+                Fructose specifically increases visceral fat (belly fat), which
+                is associated with metabolic diseases
+              </li>
+            </ul>
+            <h3>Type 2 Diabetes</h3>
+            <ul>
+              <li>
+                Excessive sugar consumption increases risk by 26% compared to
+                low-sugar diets
+              </li>
+              <li>
+                Sugar overload leads to insulin resistance and pancreatic
+                beta-cell dysfunction
+              </li>
+            </ul>
+          </div>
+          <div class="image-container">
+            <img
+              src="Blah.png"
+              alt="Metabolic effects diagram"
+              style="max-height: 400px; object-fit: contain"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Idea 2: Cardiovascular Impact -->
+      <div id="slide4" class="slide">
+        <div class="slide-indicator">4/7</div>
+        <h2>Cardiovascular Impact</h2>
+        <div class="content-box">
+          <div class="text-content">
+            <h3>Heart Disease</h3>
+            <ul>
+              <li>
+                People consuming 25% or more calories from sugar have double the
+                risk of dying from heart disease
+              </li>
+              <li>
+                Sugar raises blood pressure and increases inflammation in
+                arterial walls
+              </li>
+              <li>
+                Fructose metabolism in the liver creates uric acid, which raises
+                blood pressure
+              </li>
+            </ul>
+            <h3>Blood Lipid Profile</h3>
+            <ul>
+              <li>Increases triglycerides and LDL ("bad") cholesterol</li>
+              <li>Decreases HDL ("good") cholesterol</li>
+            </ul>
+          </div>
+          <div class="image-container">
+            <img
+              src="ha.png"
+              alt="Heart disease illustration"
+              style="max-height: 300px; object-fit: contain"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Idea 3: Brain and Mental Health -->
+      <div id="slide5" class="slide">
+        <div class="slide-indicator">5/7</div>
+        <h2>Brain and Mental Health</h2>
+        <div class="content-box">
+          <div class="text-content">
+            <h3>Cognitive Function</h3>
+            <ul>
+              <li>
+                High sugar diets are associated with impaired memory and
+                learning capacity
+              </li>
+              <li>
+                Sugar consumption reduces production of BDNF (Brain-Derived
+                Neurotrophic Factor), important for new memory formation
+              </li>
+            </ul>
+            <h3>Mood and Mental Health</h3>
+            <ul>
+              <li>
+                Sugar causes dopamine release, creating reward patterns similar
+                to addictive substances
+              </li>
+              <li>
+                Studies link high-sugar diets to increased depression and
+                anxiety
+              </li>
+              <li>
+                Sugar crashes can lead to irritability, fatigue, and difficulty
+                concentrating
+              </li>
+            </ul>
+          </div>
+          <div class="image-container">
+            <img
+              src="ohmygod.png"
+              alt="Brain function and sugar"
+              style="max-height: 350px; object-fit: contain"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Idea 4: Other Health Effects -->
+      <div id="slide6" class="slide">
+        <div class="slide-indicator">6/7</div>
+        <h2>Other Health Effects</h2>
+        <div class="content-box">
+          <div class="text-content">
+            <h3>Dental Health</h3>
+            <ul>
+              <li>
+                Sugar feeds harmful oral bacteria that produce acid, leading to
+                tooth decay
+              </li>
+              <li>
+                Each sugar-sweetened beverage per day increases cavity risk by
+                33%
+              </li>
+            </ul>
+            <h3>Liver Function</h3>
+            <ul>
+              <li>
+                Excessive fructose can cause non-alcoholic fatty liver disease
+                (NAFLD)
+              </li>
+              <li>Similar liver damage patterns to alcohol consumption</li>
+            </ul>
+            <h3>Accelerated Aging</h3>
+            <ul>
+              <li>
+                Sugar promotes formation of AGEs (Advanced Glycation End
+                Products)
+              </li>
+              <li>
+                AGEs damage collagen and elastin, leading to premature skin
+                aging
+              </li>
+            </ul>
+          </div>
+          <div class="image-container">
+            <img
+              src="image2.png"
+              alt="Multiple health effects"
+              style="max-height: 450px; object-fit: contain"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Conclusion Slide -->
+      <div id="slide7" class="slide conclusion-slide">
+        <div class="slide-indicator">7/7</div>
+        <h2>Conclusion</h2>
+        <div class="content-box">
+          <div class="text-content">
+            <h3>Why This Matters</h3>
+            <p>
+              Excessive sugar consumption is a significant public health concern
+              with wide-ranging impacts on human health. Understanding these
+              effects can help individuals make informed dietary choices.
+            </p>
+
+            <h3>What Can Be Done</h3>
+            <ul>
+              <li>Read nutrition labels to identify hidden sugars</li>
+              <li>Gradually reduce sugar intake to adjust taste preferences</li>
+              <li>Choose whole foods over processed options</li>
+              <li>Stay hydrated with water instead of sugary drinks</li>
+              <li>
+                World Health Organization recommends limiting added sugars to
+                less than 10% of daily calories
+              </li>
+            </ul>
+          </div>
+          <div class="image-container">
+            <img
+              src="image.png"
+              alt="Healthy choices illustration"
+              style="max-height: 300px; object-fit: contain"
+            />
+          </div>
+        </div>
+
+        <div class="references">
+          <h3>Works Cited (APA Format)</h3>
+          <ol>
+            <li>
+              Johnson, R. K., et al. (2022). Dietary sugars intake and
+              cardiovascular health: A scientific statement from the American
+              Heart Association. <i>Circulation, 142</i>(11), 1012-1029.
+            </li>
+            <li>
+              Ludwig, D. S., et al. (2023). The carbohydrate-insulin model: A
+              physiological perspective on the obesity pandemic.
+              <i>The American Journal of Clinical Nutrition, 114</i>(6),
+              1873-1885.
+            </li>
+            <li>
+              Malik, V. S., & Hu, F. B. (2022). Sugar-sweetened beverages and
+              cardiometabolic health: An update of the evidence.
+              <i>Nutrients, 14</i>(4), 1856.
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="navigation">
+      <button id="prevBtn" class="nav-btn">Previous</button>
+      <button id="nextBtn" class="nav-btn">Next</button>
+    </div>
+
+    <script>
+      // Simple presentation navigation
+      const slides = document.querySelectorAll(".slide");
+      let currentSlide = 0;
+
+      function showSlide(n) {
+        // Hide all slides
+        slides.forEach((slide) => {
+          slide.style.display = "none";
+        });
+
+        // Adjust index for wrap-around
+        currentSlide = (n + slides.length) % slides.length;
+
+        // Show the current slide
+        slides[currentSlide].style.display = "flex";
+
+        // Scroll to top of slide
+        window.scrollTo(0, 0);
+      }
+
+      // Initialize with first slide
+      showSlide(0);
+
+      // Event listeners for navigation
+      document.getElementById("prevBtn").addEventListener("click", () => {
+        showSlide(currentSlide - 1);
+      });
+
+      document.getElementById("nextBtn").addEventListener("click", () => {
+        showSlide(currentSlide + 1);
+      });
+
+      // Keyboard navigation
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowRight" || e.key === " ") {
+          showSlide(currentSlide + 1);
+        } else if (e.key === "ArrowLeft") {
+          showSlide(currentSlide - 1);
+        }
+      });
+    </script>
+  </body>
+</html>
